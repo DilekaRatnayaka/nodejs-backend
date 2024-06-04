@@ -4,7 +4,7 @@ const port = process.env.PORT || 3000; // Set the port from an environment varia
 
 // Define a route handler for the root URL ('/')
 app.get('/', (req, res) => {
-  res.send('Hello, world!'); // Send "Hello, world!" as the response
+  res.send('Hello world!'); // Send "Hello, world!" as the response
 });
 
 // Start the server and listen on the specified port
